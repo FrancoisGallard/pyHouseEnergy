@@ -1,0 +1,39 @@
+["Panels"]
+    surface=2.5
+    number=5
+    efficiency=0.6
+    # Watts/m2/day
+    irradiance = 2900.
+
+["Tank"]
+    volume=0.5
+    temp=293.0
+    max_temp=363.0
+    min_temp=293.0
+    floor_surf = 1.
+    tank_R = 5.
+    
+["House"]
+    in_temp = 290.0
+    out_temp = 278.0
+    walls_surf=83.0
+    windows_surf=17.0
+    ground_surf=96.0
+    ground_R=2.0
+    roof_R=4.0
+    walls_R=4.0
+    windows_R=1.
+    dtemp_roof=5.0
+    dtemp_ground=-10.0
+    #100 m3/h = 0.03 kg/s
+    vent_mass_flow_rate=0.06
+    # kg/day, hot water consumption
+    hot_water_mass=125.0
+    hot_water_temp=338.0
+    double_flux_vent= True
+    
+["Scenario"]
+    # hours
+    simulation_time = 24.
+    time_step=0.5
+    
